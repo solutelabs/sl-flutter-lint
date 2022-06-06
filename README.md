@@ -6,9 +6,9 @@ To use the lints, add a dependency in your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  solutelabs_lint:
+  sl-flutter-lint:
     git:
-      url: https://github.com/solutelabs/solutelabs_lint
+      url: https://github.com/solutelabs/sl-flutter-lint
       ref: dev
 ```
 Then, add an include in `analysis_options.yaml`:
