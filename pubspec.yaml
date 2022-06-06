@@ -1,0 +1,11 @@
+name: solutelabs_lint
+description: A set of lint rules for dart and flutter projects.
+version: 0.0.1
+
+homepage:
+publish_to: "none"
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=1.17.0"
+  
