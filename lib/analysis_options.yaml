@@ -3,7 +3,12 @@ analyzer:
     - lib/basic_api/**
     - lib/generated/**
     - /**.g.dart
-
+    - lib/**/*.g.dart
+    - lib/**/*.freezed.dart
+    - lib/generated
+    - lib/generated/locale_keys.g.dart
+    - lib/src/di/injectable.config.dart
+    
   strong-mode:
     implicit-dynamic: false
   errors:
